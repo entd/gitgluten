@@ -1,0 +1,9 @@
+This project is used for easy and quick autodeployment from git.
+It is unstable as hell, do not use in production. You have been warned.
+This server is based on python asyncio.
+Planing to add support for both bitbucket and github api.
+It is intended as simple not fully pleged CI system.
+It is probably not safe too.
+I'm not responsible for damage, even if it eats kittens.
+So far it may not even work and look worse than yesterday spaghetti in dumpster.
+License? Probably BSD, MIT or LGPL will depend on my own mood :)
