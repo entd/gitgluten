@@ -1,0 +1,7 @@
+{
+"port": 8089,
+"repos": [{"branch": "development",
+	"address": "http://bitbucket.org/stuff",
+	"hook": "/hooks/stuff"}], 
+"module": "bitbucket"
+}
