@@ -1,0 +1,14 @@
+[Unit]
+Description=Text
+After=syslog.target
+
+[Service]
+Type=forking
+User=root
+Group=root
+WorkingDirectory=/opt/gitgluten
+PIDFile=/var/run/gluten.pid
+ExecStart=/opt/gitgluten/gluten.py
+
+[Install]
+WantedBy=multi-user.target
